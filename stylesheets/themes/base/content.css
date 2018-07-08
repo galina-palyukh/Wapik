@@ -1,0 +1,34 @@
+:root {
+  --base-h1-font-size: 38px;
+  --base-h1-line-height: 1.2;
+  --base-h2-font-size: 32px;
+  --base-h2-line-height: 1.3;
+  --base-h3-font-size: 22px;
+  --base-h3-line-height: 1.4;
+  --base-h4-font-size: 16px;
+}
+
+body {
+  color: var(--global-color);
+}
+h1 {
+  color: #ffffff;
+}
+
+h2, h3 {
+  color: #0f5f5c;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.hidden {
+  opacity: 1 !important;
+  pointer-events: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
