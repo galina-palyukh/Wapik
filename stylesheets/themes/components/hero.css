@@ -1,7 +1,7 @@
 
 .hero {
     position: relative;
-    padding: 215px 0 35px 0;
+    padding: 283px 0 200px 0;
 
 }
 
@@ -28,4 +28,9 @@
 
 .hero-foreground {
     position: relative;
+}
+
+.hero-description{
+    font-size: 16px;
+    margin-bottom: 20px;
 }

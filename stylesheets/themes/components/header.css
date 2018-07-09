@@ -6,6 +6,11 @@ header{
     z-index: 980;
 }
 
+
+header + section{
+    padding-bottom: 83px;
+}
+
 .navbar-nav{
     display: flex;
     flex-wrap: wrap;

@@ -1,7 +1,9 @@
 :root {
-  --global-font-family:                            -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", Arial, sans-serif;
+  --global-font-family:                            Roboto,-apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   --global-font-size:                              14px;
   --global-line-height:                            22px;
+
+  --global-font-weight:                            normal;
 
   --global-color:                                  #83a7a5;
   --global-muted-color:                            #0f5f5c;
