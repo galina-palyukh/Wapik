@@ -1,0 +1,30 @@
+.grid-pricing {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 2px;
+  margin-bottom: 76px;
+}
+
+.grid-pricing .grid-item {
+  width: 260px;
+  border: 1px solid #c1d3d2;
+}
+
+.cost-pricing {
+  margin-bottom: 32px;
+}
+
+.grid-plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 58px;
+}
+
+.grid-plans>.grid-item:not(:last-child) {
+  margin-right: 20px;
+}
