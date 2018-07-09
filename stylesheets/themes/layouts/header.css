@@ -1,0 +1,22 @@
+.layout-header {
+    justify-content: space-between;
+    display: flex;
+    min-height: 83px;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+
+.layout-header .layout-item{
+    align-items: center;
+    display: flex;
+}
+.layout-header .layout-item:nth-child(1){
+    /*flex-shrink: 0;*/
+}
+
+
+
+
+@media screen and (max-width: 768px){
+
+}
