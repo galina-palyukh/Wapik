@@ -6,22 +6,64 @@
   --base-h3-font-size: 22px;
   --base-h3-line-height: 1.4;
   --base-h4-font-size: 16px;
+  --base-h5-font-size: 15px;
+  --base-margin-vertical: 15px;
 }
 
 body {
   color: var(--global-color);
 }
+
+h1,h2,h3,h4,h5,h6 {
+  position: relative;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
 h1 {
   color: #ffffff;
 }
 
 h2, h3 {
   color: #0f5f5c;
+  margin-bottom: 36px;
+}
+
+.heading::after {
+  bottom: -18px;
+  position: absolute;
+  content: "";
+  width: 69px;
+  height: 2px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #6fb048;
+}
+
+.heading-green {
+  color: #6fb048;
 }
 
 .list {
+  position: relative;
   list-style: none;
   padding-left: 0;
+}
+
+.list-check>li::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  left: -8px;
+  background: url(../../../img/check.svg);
+}
+
+.list-check li{
+  padding-left: 30px;
+  margin: 0 0 10px;
 }
 
 .hidden {
