@@ -24,11 +24,17 @@ h1 {
   color: #ffffff;
 }
 
-h2, h3 {
+h2, h3, h4 {
   color: #0f5f5c;
+}
+
+h2, h3{
   margin-bottom: 36px;
 }
 
+.heading{
+  text-align: center;
+}
 .heading::after {
   bottom: -18px;
   position: absolute;
