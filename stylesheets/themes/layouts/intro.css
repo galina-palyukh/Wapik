@@ -1,0 +1,7 @@
+.intro-layout {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 96px 0;
+}
