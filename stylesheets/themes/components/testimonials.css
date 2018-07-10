@@ -1,0 +1,25 @@
+/*component*/
+.testimonials-preview {
+  width: 50%;
+}
+/*element*/
+.cient-name {
+  font-weight: 700;
+}
+.testimonials-photo img {
+  width: 300px;
+}
+@media screen and (max-width: 1200px) {
+  .testimonials-photo img {
+     width: 200px;
+ }
+}
+@media screen and (max-width: 992px) {
+  .testimonials-layout {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .testimonials-photo {
+     text-align: center;
+  }
+}

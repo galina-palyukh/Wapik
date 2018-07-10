@@ -1,0 +1,11 @@
+/*layout*/
+.download {
+  background-image: url(../../../img/download-bg.png);
+  position: relative;
+}
+.download-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
