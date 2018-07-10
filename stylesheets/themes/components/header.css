@@ -1,3 +1,11 @@
+
+.layout-header .layout-item:nth-child(1) .header-phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
 header{
     background-color: transparent;
     position: absolute;
@@ -11,6 +19,33 @@ header + section{
     padding-bottom: 83px;
 }
 
+
+.header-phone svg{
+    fill: #fff;
+    opacity: 0.7;
+}
+.header-phone:before{
+    content: '';
+    width: 1px;
+    height: 20px;
+    background: rgba(255, 255, 255, .2);
+    margin-right: 23px;
+    margin-left: 23px;
+}
+
+
+.header-phone-link{
+    pointer-events: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 6px;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+}
+
+.header-phone-link:hover{
+    color: #fff;
+}
 .navbar-nav{
     display: flex;
     flex-wrap: wrap;
@@ -169,5 +204,13 @@ header + section{
 
     .mob_menu_bg.show {
         display: block;
+    }
+
+    .header-phone:before {
+        margin-right: 10px;
+        margin-left: 12px;
+    }
+    .header-phone-link {
+        margin-left: 2px;
     }
 }
