@@ -3,11 +3,111 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/index.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Montserrat|Roboto:300,400,500"
+          rel="stylesheet">
+
+    <!--font-family: 'Montserrat', sans-serif;-->
+    <!--font-family: 'Roboto', sans-serif;-->
+    <!--font-family: 'Merriweather', serif;-->
 
     <title>contacts</title>
 </head>
 <body>
+
+
+<header class="header">
+    <div class="container">
+        <div class="layout layout-header">
+
+            <div class="layout-item">
+                <a href="" class="logo">
+                    <img class="card-image" src="images/logo.png" alt="">
+                </a>
+                <div class="header-phone">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 32 32">
+                        <title>header-phone</title>
+                        <path d="M3.075 4.329c-1.067 1.067-1.82 2.51-1.82 3.451 0 3.953 6.086 12.361 12.235 17.004 6.4 4.831 9.035 5.208 12.235 1.882 2.071-2.133 2.133-2.322 1.192-3.953-0.502-0.941-2.133-2.322-3.576-3.137-2.384-1.318-2.824-1.38-4.831-0.69-2.133 0.816-2.259 0.753-4.706-1.631-2.949-2.886-3.451-4.141-2.51-6.024 0.878-1.631-0.063-4.455-2.384-7.027-2.071-2.196-3.514-2.133-5.835 0.125z"></path>
+                    </svg>
+
+                    <a class="header-phone-link" href="tel:+38-062-202-555-0117">+62 202 555 0117</a>
+
+                </div>
+            </div>
+
+
+            <div class="layout-item">
+
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">About us</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Pricing</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Contact us</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Get Started</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <div class="mob_menu_bg"></div>
+
+                <a class="mobile-nav__openbtn" id="mobile-nav__openbtn" onclick="openNav()" href="#">
+                    <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                         version="1.1">
+                        <rect y="9" width="20" height="2" fill="#85D2FF"></rect>
+                        <rect y="3" width="20" height="2" fill="#85D2FF"></rect>
+                        <rect y="15" width="20" height="2" fill="#85D2FF"></rect>
+                    </svg>
+                </a>
+
+
+                <nav class="mobile-nav" id="mobile-nav">
+
+                    <a class="mobile-nav__closebtn" type="button" href="javascript:void(0)" onclick="closeNav()">
+                        <svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+                            <line stroke-width="2" x1="1" y1="1" x2="13" y2="13"></line>
+                            <line stroke-width="2" x1="13" y1="1" x2="1" y2="13"></line>
+                        </svg>
+                    </a>
+
+                    <ul class="mobile-navbar-nav">
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link is-active">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">About us</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Pricing</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Contact us</a>
+
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Get Started</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+
+</header>
+
+
 
 </body>
 </html>
