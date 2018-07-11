@@ -68,6 +68,11 @@ header + section{
     margin-right: 20px;
 
 }
+
+.is-inverse .navbar-nav>li>a{
+    color: #83a7a5;
+}
+
 .navbar-nav>li:last-child > a{
     margin-right: 0;
 }
