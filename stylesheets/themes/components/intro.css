@@ -1,0 +1,26 @@
+/*component*/
+.intro {
+  background-image: url(../../../img/intro-map.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-color: var(--global-muted-background);
+}
+.intro-description {
+  width: 50%;
+}
+.intro-description h2 {
+  margin-bottom: 18px;
+}
+/*element*/
+.intro-photo img {
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  .intro-layout {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .intro-description {
+    width: 100%;
+  }
+}
