@@ -19,15 +19,25 @@
 }
 @media screen and (max-width: 1200px) {
   .testimonials-photo img {
-     width: 300px;
+     max-width: 300px;
  }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .testimonials-layout {
     flex-direction: column;
     padding: 50px 0;
   }
+  .testimonials-preview {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .testimonials-photo img {
+    max-width: 200px;
+  }
   .testimonials-photo {
      text-align: center;
+  }
+  .testimonials-preview p {
+    font-size: 18px;
   }
 }
