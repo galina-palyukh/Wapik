@@ -2,34 +2,28 @@ section.features {
     margin-bottom: 120px;
 }
 
-.features-text {
-    max-width: 510px;
-    margin: auto;
-    margin-bottom: 37px;
-    text-align: center;
-}
-
-.features .grid-technology {
+.grid-technology {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
 }
 
-.features .grid-technology .grid-item {
+.grid-technology .grid-item {
     margin-right: 50px;
     width: calc(33.333% - 50px);
 }
 
-.features .grid-technology .grid-item:last-child {
+.grid-technology .grid-item:last-child {
     margin-right: 0;
 }
 
-.features svg {
+.grid-technology svg,
+.grid-tools svg {
     fill: var(--button-background);
 }
 
-.features .grid-technology svg {
+.grid-technology svg {
     margin-bottom: 20px;
 }
 
@@ -62,47 +56,47 @@ section.features {
     left: 0;
 }
 
-.features .grid-tools {
+.grid-tools {
     display: flex;
     flex-wrap: wrap;
 }
 
-.features .grid-tools .grid-item:nth-child(odd) {
+.grid-tools .grid-item:nth-child(odd) {
     padding-right: 25px;
 }
 
-.features .grid-tools .grid-item {
+.grid-tools .grid-item {
     width: calc(100% / 2);
 }
 
-.features .grid-tools .grid-item:nth-child(even) {
+.grid-tools .grid-item:nth-child(even) {
     padding-left: 25px;
 }
 
-.features .grid-tools .grid-item:nth-child(odd) {
+.grid-tools .grid-item:nth-child(odd) {
     padding-right: 25px;
 }
 
-.features .tools-header {
+.tools-header {
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
-.features .tools-header h4 {
+.tools-header h4 {
     margin: 0 0 0 20px;
 
 }
 
 @media screen and (max-width: 768px) {
-    .features .grid-technology .grid-item {
+    .grid-technology .grid-item {
         width: initial;
         max-width: 400px;
         margin: auto;
         margin-bottom: 40px;
     }
 
-    .features .grid-technology .grid-item:last-child {
+    .grid-technology .grid-item:last-child {
         margin: auto;
         margin-bottom: 0;
     }
@@ -123,16 +117,16 @@ section.features {
         left: 0;
     }
 
-    .features .grid-tools .grid-item {
+    .grid-tools .grid-item {
         width: 100%;
     }
 
-    .features .grid-tools .grid-item:nth-child(even),
-    .features .grid-tools .grid-item:nth-child(odd) {
+    .grid-tools .grid-item:nth-child(even),
+    .grid-tools .grid-item:nth-child(odd) {
         padding: 0;
     }
 
-    .features .card-tools {
+    .card-tools {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -142,13 +136,13 @@ section.features {
         text-align: center;
     }
 
-    .features .tools-header {
+    .tools-header {
         display: flex;
         align-items: center;
         flex-direction: column;
     }
 
-    .features .tools-header h4 {
+    .tools-header h4 {
         margin: 0;
 
     }

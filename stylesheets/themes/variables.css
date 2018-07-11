@@ -1,5 +1,6 @@
 :root {
   --global-font-family:                            Roboto,-apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
   --global-font-size:                              14px;
   --global-line-height:                            22px;
 
@@ -15,8 +16,8 @@
 
   --global-background:                             #fff;
 
-  /* --global-muted-background:                       #f8f8f8;
-  --global-primary-background:                     #1e87f0;
+  --global-muted-background:                       #eef1ec;
+  /*--global-primary-background:                     #1e87f0;
   --global-secondary-background:                   #222; */
 
   --global-success-background:                     #32d296;
@@ -31,5 +32,5 @@
 
   /* --global-gutter:                                 30px; */
 
-  --global-control-height:                         50px;
+  --global-control-height:                         42px;
 }
