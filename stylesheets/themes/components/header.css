@@ -261,3 +261,15 @@ header.is-inverse .navbar-nav > li > a:hover {
         margin-left: 2px;
     }
 }
+
+@media screen and (max-width: 400px) {
+
+    .header-phone:before {
+        margin-right: 6px;
+        margin-left: 6px;
+    }
+    header.is-inverse .header-phone svg {
+        display: none;
+    }
+
+}
