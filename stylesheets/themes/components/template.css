@@ -1,8 +1,8 @@
-.template__container .heading,
-p{
-	    margin-bottom: 36px;
-	    text-align: center;
-}
+/*.template__container .heading,*/
+/*p{*/
+	    /*margin-bottom: 36px;*/
+	    /*text-align: center;*/
+/*}*/
 
 .template{
 	background-color: var(--global-muted-background);
@@ -10,11 +10,11 @@ p{
 	margin-bottom: 90px;
 }
 
-.template__container{
-	margin: 0 auto;
-	max-width: 1056px;
-	padding-top: 76px;
-}
+/*.template__container{*/
+	/*margin: 0 auto;*/
+	/*max-width: 1056px;*/
+	/*padding-top: 76px;*/
+/*}*/
 
 .grid__template{
 	display: grid;

@@ -7,7 +7,11 @@
   --base-h3-line-height: 1.4;
   --base-h4-font-size: 16px;
   --base-h5-font-size: 15px;
+  --base-h6-font-size: 13px;
   --base-margin-vertical: 15px;
+
+
+  --global-control-height: 40px;
 }
 
 body {
@@ -80,4 +84,8 @@ h2, h3, h4 {
 
 a:hover {
   text-decoration: none;
+}
+
+.is-disabled {
+  background-color: #83a7a5;
 }
