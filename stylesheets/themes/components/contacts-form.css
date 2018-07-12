@@ -3,7 +3,21 @@
 }
 
 
-
 .button.button-submit{
     padding: 13px 44px;
+}
+
+.contacts-form input,
+.contacts-form textarea{
+    margin-bottom: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .contacts-form input,
+    .contacts-form textarea{
+        margin-bottom: 15px;
+    }
 }
