@@ -10,10 +10,7 @@
 .grid-pricing .grid-item {
   width: 260px;
   border: 1px solid #c1d3d2;
-}
-
-.cost-pricing {
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .grid-plans {
@@ -28,3 +25,17 @@
 .grid-plans>.grid-item:not(:last-child) {
   margin-right: 20px;
 }
+
+.grid-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid-footer > * {
+  flex-grow: 1;
+  max-width: 25%;
+  margin-right: 20px;
+}
+
+.grid-footer > :not(:last-child)
