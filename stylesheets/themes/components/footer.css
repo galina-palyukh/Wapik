@@ -134,6 +134,18 @@ input[type="email"] {
   background-color: #270b0b;
 }
 
+.footer-btn {
+  background-color: transparent;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.footer-input {
+  background-color: #eef1ec;
+}
+
 @media (max-width: 450px) {
   .footer-top{
     padding-top: 65px;

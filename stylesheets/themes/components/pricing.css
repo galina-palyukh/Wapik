@@ -39,9 +39,11 @@
   margin-top: 80px;
 }
 
-.heading-help::after {
+.heading-help::before {
   content: "";
   display: block;
+  margin: 0 auto;
+  margin-bottom: 18px;
   width: 44px;
   height: 44px;
   top: -115px;
