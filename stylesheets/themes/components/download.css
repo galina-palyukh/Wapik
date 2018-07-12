@@ -40,17 +40,37 @@
 
 
 @media screen and (max-width: 992px) {
+  .download {
+    height: 150px;
+  }
   .download-layout {
     justify-content: space-around;
     flex-direction: column;
   }
   .download-description {
-     width: 50%;
-     text-align: center;
+    width: 100%;
+    text-align: center;
+ }
+  .download-description h2 {
+    font-size: 24px;
+  }
+  .download-action .button {
+    font-size: 12px;
+    padding: 8px 16px;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 992px) { 
+  .download {
+    height: 120px;
+  }
+  .download-description h2 {
+    font-size: 16px;
+  }
   .download-description p {
-    display: none;
+    font-size: 12px;
+  }
+  .download-action .button {
+    font-size: 10px;
+    padding: 4px 8px;
   }
 }
