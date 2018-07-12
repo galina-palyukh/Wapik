@@ -19,31 +19,37 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  position: relative;
   margin: 0;
-  margin-bottom: 18px;
 }
 
 h1 {
   color: #ffffff;
 }
 
-h2, h3 {
+h2, h3, h4 {
   color: #0f5f5c;
-  margin-bottom: 36px;
 }
 
 
+.heading{
+  text-align: center;
+}
 .heading::after {
-  bottom: -18px;
-  position: absolute;
   content: "";
   width: 69px;
+  display: block;
   height: 2px;
   left: 0;
-  right: 0;
-  margin: auto;
+  margin: 18px auto 20px;
   background-color: #6fb048;
+}
+
+.heading-description{
+  max-width: 510px;
+  margin: auto;
+  margin-bottom: 37px;
+  text-align: center;
+  font-size: 15px;
 }
 
 .heading-green {
