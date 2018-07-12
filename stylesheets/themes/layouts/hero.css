@@ -4,7 +4,11 @@
     align-items: center;
 }
 
-.layout-hero .layout-item:nth-child(1){
+.layout-hero > .layout-item:nth-child(1){
     max-width: 515px;
     color: #fff;
+}
+
+.layout-hero > .hero-about {
+    max-width: 816px !important;
 }

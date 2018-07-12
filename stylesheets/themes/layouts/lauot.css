@@ -9,3 +9,12 @@
   align-items: center;
   padding: 15px 0;
 }
+
+@media (max-width: 450px) {
+  .layout-footer-bottom {
+    flex-direction: column;
+  }
+  .layout-footer-bottom > *:first-child {
+    margin-bottom: 20px;
+  }
+}
